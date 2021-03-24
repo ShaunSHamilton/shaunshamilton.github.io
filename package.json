@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "Base page for GitHub domain",
   "main": "public/index.html",
+  "entrypoint": "public",
   "scripts": {
-    "build": "",
+    "build": "copy public build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
