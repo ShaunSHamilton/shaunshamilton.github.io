@@ -1,0 +1,4 @@
+This is a Brave Rewards publisher verification file.
+
+Domain: shaunshamilton.github.io
+Token: 691432de9a8748fdcacc6a157234f51e8e51ada0a1c2e546d6f1091ed79f1e4a

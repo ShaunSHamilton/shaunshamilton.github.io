@@ -62,6 +62,9 @@
     <meta property="twitter:title" content="SHAUN HAMILTON">
   </head>
   <style>
+    :root {
+      --color-text: #9ce4e4;
+    }
     * {
       margin: 0;
       padding: 0;
@@ -69,7 +72,8 @@
     body {
       width: 100%;
       height: 100vh;
-      color: #9ce4e4;
+      color: var(--color-text);
+      background-color: #000000;
     }
     #root {
       display: flex;
@@ -84,10 +88,31 @@
     p {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    ul {
+    nav {
       padding-bottom: 1.5rem;
-      font-size: 1.2em;
+      font-size: 1.5em;
+      display: flex;
+      width: 100%;
+      justify-content: space-around;
+      align-items: center;
     }
+    a {
+      text-decoration: none;
+      border: red 1px solid;
+      border-radius: 8px;
+      padding: 0.3em;
+    }
+    
+    span {
+      color: var(--color-text);
+    }
+    a:hover {
+      background-color: rgb(68, 172, 190);
+    }
+    a:hover span {
+      color: #000;
+    }
+
     img {
       width: 200px;
       height: 200px;
@@ -103,12 +128,10 @@
         exciting content...
       </p>
       <h2>Links</h2>
-      <ul>
-        <li>
-          <a href="https://shaunshamilton.github.io/portfolio/">Portfolio</a>
-          <a href="https://github.com/ShaunSHamilton">GitHub</a>
-        </li>
-      </ul>
+      <nav>
+          <a href="https://shaunshamilton.github.io/portfolio/"><span>Portfolio</span></a>
+          <a href="https://github.com/ShaunSHamilton"><span>GitHub</span></a>
+      </nav>
       <img src="SHicon_180x180.png" />
     </div>
   </body>

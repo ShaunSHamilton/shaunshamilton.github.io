@@ -5,7 +5,6 @@
   "main": "public/index.html",
   "scripts": {
     "build": "copy public build",
-    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "repository": {
