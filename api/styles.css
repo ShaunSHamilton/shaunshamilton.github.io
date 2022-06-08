@@ -1,0 +1,12 @@
+:root {
+  --colour-bg: black;
+  --colour-bg-code: #0e0e0e;
+}
+
+body {
+  background-color: var(--colour-bg) !important;
+}
+
+pre {
+  background-color: var(--colour-bg-code) !important;
+}
