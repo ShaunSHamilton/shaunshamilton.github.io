@@ -17,5 +17,9 @@
   "display": "standalone",
   "theme_color": "#000000",
   "background_color": "#000000",
-  "web_accessible_resources": [".well-known/brave-rewards-verification.txt", "api/styles.css"]
+  "web_accessible_resources": [
+    ".well-known/brave-rewards-verification.txt",
+    "api/styles.css",
+    "static/**/*"
+  ]
 }
