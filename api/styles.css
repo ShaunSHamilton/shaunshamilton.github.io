@@ -1,10 +1,25 @@
 :root {
   --colour-bg: black;
   --colour-bg-code: #0e0e0e;
+  --colour-fg: #cecece;
+}
+
+@font-face {
+  font-family: 'Hack-ZeroSlash';
+  src: url('/static/fonts/Hack-ZeroSlash-Regular.woff2')
+      format('woff2'),
+    url('/static/fonts/Hack-ZeroSlash-Regular.woff')
+      format('woff');
+}
+
+.footnote-ref > a, .footnote-backref {
+  color: lightblue;
 }
 
 body {
   background-color: var(--colour-bg) !important;
+  font-family: 'Hack-ZeroSlash', monospace !important;
+  color: var(--colour-fg);
 }
 
 pre {
