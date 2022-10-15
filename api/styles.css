@@ -25,3 +25,7 @@ body {
 pre {
   background-color: var(--colour-bg-code) !important;
 }
+
+a:visited {
+  color: #ac4cfa;
+}
